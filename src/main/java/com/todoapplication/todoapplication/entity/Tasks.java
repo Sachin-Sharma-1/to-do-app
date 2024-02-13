@@ -1,4 +1,4 @@
-package com.mongodbexample.mongodbexample.entity;
+package com.todoapplication.todoapplication.entity;
 
 import jdk.jfr.DataAmount;
 import org.springframework.data.annotation.Id;

@@ -1,12 +1,11 @@
-package com.mongodbexample.mongodbexample.repo;
+package com.todoapplication.todoapplication.repo;
 
-import com.mongodbexample.mongodbexample.entity.Student;
-import com.mongodbexample.mongodbexample.entity.Tasks;
+import com.todoapplication.todoapplication.entity.Tasks;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 
 public interface TasksRepository extends MongoRepository<Tasks, String> {
 
     @Query("{ '_id' : ?id }")
-    Student deleteByIdCustom(String id);
+    Tasks deleteByIdCustom(String id);
 }

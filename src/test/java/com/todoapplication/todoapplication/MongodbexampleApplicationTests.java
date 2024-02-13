@@ -1,4 +1,4 @@
-package com.mongodbexample.mongodbexample;
+package com.todoapplication.todoapplication;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
