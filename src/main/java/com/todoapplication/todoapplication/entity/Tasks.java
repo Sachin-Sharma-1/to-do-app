@@ -15,6 +15,10 @@ public class Tasks {
     private String task;
     private String priority;
 
+    public Tasks(){
+
+    }
+
     public Tasks(String ticketId, String task, String priority) {
         this.ticketId = ticketId;
         this.task = task;

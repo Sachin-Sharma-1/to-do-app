@@ -6,6 +6,4 @@ import org.springframework.data.mongodb.repository.Query;
 
 public interface TasksRepository extends MongoRepository<Tasks, String> {
 
-    @Query("{ '_id' : ?id }")
-    Tasks deleteByIdCustom(String id);
 }
